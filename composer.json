@@ -1,0 +1,62 @@
+{
+    "name": "tylerwoonton/laravel-dashboard-health-check-tile",
+    "description": "A tile bringing support for ukfast/laravel-health-check to spatie/laravel-dashboard.",
+    "keywords": [
+        "laravel-dashboard",
+        "laravel-health-check",
+        "lumen-health-check",
+        "health-check",
+        "laravel",
+        "lumen"
+    ],
+    "homepage": "https://github.com/tylerwoonton/laravel-dashboard-health-check-tile",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Tyler Woonton",
+            "email": "tylerwoonton11@gmail.com",
+            "homepage": "https://tylerwoonton.com",
+            "role": "Author"
+        }
+    ],
+    "require": {
+        "php": "^7.4",
+        "guzzlehttp/guzzle": "^6.5",
+        "illuminate/console": "^7.0",
+        "illuminate/http": "^7.0",
+        "illuminate/support": "^7.0",
+        "livewire/livewire": "^1.0",
+        "spatie/laravel-dashboard": "^1.0"
+    },
+    "require-dev": {
+        "orchestra/testbench": "^5.0",
+        "phpunit/phpunit": "^9.0"
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "autoload": {
+        "psr-4": {
+            "TylerWoonton\\HealthCheckTile\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "TylerWoonton\\HealthCheckTile\\Tests\\": "tests"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "TylerWoonton\\HealthCheckTile\\HealthCheckTileServiceProvider"
+            ]
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "scripts": {
+        "test": "vendor/bin/phpunit",
+        "test-coverage": "vendor/bin/phpunit --coverage-html coverage"
+    }
+}
