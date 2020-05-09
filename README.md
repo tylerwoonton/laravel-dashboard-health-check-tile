@@ -1,5 +1,11 @@
 # Health Check Tile for Laravel Dashboard
 
+![Packagist Version](https://img.shields.io/packagist/v/tylerwoonton/laravel-dashboard-health-check-tile?color=%234299E1&style=for-the-badge)
+[![GitHub license](https://img.shields.io/github/license/tylerwoonton/laravel-dashboard-health-check-tile?color=%234299E1&style=for-the-badge)](https://github.com/tylerwoonton/laravel-dashboard-health-check-tile/blob/master/LICENCE)
+![GitHub Workflow Status](https://img.shields.io/github/workflow/status/tylerwoonton/laravel-dashboard-health-check-tile/Run%20tests?color=4299E1&style=for-the-badge)
+
+[![Buy us a tree](https://img.shields.io/badge/Treeware-%F0%9F%8C%B3-lightgreen?style=for-the-badge)](https://plant.treeware.earth/tylerwoonton/laravel-dashboard-health-check-tile)
+
 The purpose of this package is to integrate the [ukfast/laravel-health-check](https://github.com/ukfast/laravel-health-check) package into a tile for [spatie/laravel-dashboard](https://github.com/spatie/laravel-dashboard).
 
 ![Example Screenshot](/docs/example.png)
@@ -89,3 +95,7 @@ composer test
 We welcome contributions to this package. All new changes should be well-tested and follow [PSR-12](https://www.php-fig.org/psr/psr-12/) standards.
 
 Please refer to our [CONTRIBUTING](CONTRIBUTING.md) file for more information.
+
+## Treeware
+
+This package is [**Treeware**](https://treeware.earth). If you use it in production, then we ask that you [**buy the world a tree**](https://plant.treeware.earth/tylerwoonton/laravel-dashboard-health-check-tile) to thank us for our work. By contributing to the Treeware forest you’ll be creating employment for local families and restoring wildlife habitats.
