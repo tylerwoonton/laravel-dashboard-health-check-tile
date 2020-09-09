@@ -7,6 +7,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+
+## [2.0.0] - 2020-09-09
+
 ### Added
 
 - Add support for spatie/laravel-dashboard v2
@@ -25,6 +28,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 - Initial commit
 
-[unreleased]: https://github.com/tylerwoonton/laravel-dashboard-health-check-tile/compare/v1.0.1...HEAD
+[unreleased]: https://github.com/tylerwoonton/laravel-dashboard-health-check-tile/compare/v2.0.0...HEAD
+[2.0.0]: https://github.com/tylerwoonton/laravel-dashboard-health-check-tile/tree/v2.0.0
 [1.0.1]: https://github.com/tylerwoonton/laravel-dashboard-health-check-tile/tree/v1.0.1
 [1.0.0]: https://github.com/tylerwoonton/laravel-dashboard-health-check-tile/tree/v1.0.0
