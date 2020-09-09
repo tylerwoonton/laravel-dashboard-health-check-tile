@@ -7,6 +7,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Added
+
+- Add support for spatie/laravel-dashboard v2
 
 
 ## [1.0.1] - 2020-05-09
