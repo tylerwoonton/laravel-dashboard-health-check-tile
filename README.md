@@ -8,7 +8,7 @@
 
 The purpose of this package is to integrate the [ukfast/laravel-health-check](https://github.com/ukfast/laravel-health-check) package into a tile for [spatie/laravel-dashboard](https://github.com/spatie/laravel-dashboard).
 
-![Example Screenshot](/docs/example.png)
+![Example Screenshot](https://raw.githubusercontent.com/tylerwoonton/laravel-dashboard-health-check-tile/master/docs/example.png)
 
 ## Installation
 
